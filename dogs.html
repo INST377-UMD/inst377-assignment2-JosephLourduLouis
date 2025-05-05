@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Assignment 2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/simple-slider/dist/simple-slider.min.js"></script>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stocks.html">Stocks</a></li>
+      <li><a href="dogs.html">Dogs</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content">
+    <h2>Dog Explorer</h2>
+    <div id="carousel-slider">
+      <div id="dog-carousel" class="slider"></div>
+    </div>
+    <h3>Choose one of these Dog Breeds:</h3>
+    <div id="breed-buttons"></div>
+    <div id="breed-info" style="display:none; margin-top: 20px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/simple-slider/dist/simple-slider.min.js"></script>
+    <script src="dogs.js"></script>
+
+  </main>
+
+  <div id="audio-controls">
+    <p>Say "Hello", "Change the color to blue", or "Navigate to dogs", or "Lookup GME"</p>
+    <button onclick="startAudio()">Turn On Audio</button>
+    <button onclick="stopAudio()">Turn Off Audio</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+  <script src="audio.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
